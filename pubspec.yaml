@@ -1,0 +1,36 @@
+name: flutter_gymapp
+description: "Projeto em flutter como se fosse um diario de academia."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.29.0
+  firebase_auth: ^4.19.1
+  image_picker: ^1.0.8
+  firebase_storage: ^11.7.1
+  cloud_firestore: ^4.17.2
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
